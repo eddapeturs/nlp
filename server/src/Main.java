@@ -64,9 +64,4 @@ public class Main {
         return sentences;
     }
 
-
-    public void server() throws IOException{
-
-    }
-
 }
