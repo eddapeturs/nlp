@@ -2,6 +2,7 @@
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 
 import java.io.*;
 import java.net.InetSocketAddress;
@@ -74,9 +75,6 @@ public class server {
             }
         }
     }
-
-
-
 }
 
 class RootHandler implements HttpHandler {
@@ -101,23 +99,49 @@ class GetHandler implements HttpHandler {
     public void handle(HttpExchange he) throws IOException {
         // parse request
         Map<String, Object> parameters = new HashMap<String, Object>();
-        URI requestedUri = he.getRequestURI();
-        String query = requestedUri.getRawQuery();
-        server.parseQuery(query, parameters);
+        InputStream io = he.getRequestBody();
+
+        StringBuilder textBuilder = new StringBuilder();
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader
+                    (io, Charset.forName("ISO-8859-1")));
+            int c = 0;
+            while (c != -1 ){
+                    c = reader.read();
+                    textBuilder.append((char) c);
+                }
+            }
+
+            catch (IOException ie){
+            System.out.println("Could not read buffer");
+        }
+        textBuilder.deleteCharAt(textBuilder.length()-1);
+
+        server.parseQuery(textBuilder.toString(), parameters);
 
         // send response
-        String response = parameters.get("string").toString();
-        response =response.replaceAll("-", " ");
-        response = Main.parse(Main.tag(response));
+        String string = parameters.get("string").toString();
+        String taggedString = Main.tag(string);
+        String parsedString = Main.parse(taggedString);
+        parsedString =parsedString.replaceAll("\n", "");
 
-        response = response.replaceAll("-", " ");
-        for (String key : parameters.keySet())
-            response += key + " = " + parameters.get(key) + "\n";
+
+        String response = BuildResponseString(string, taggedString, parsedString);
         he.sendResponseHeaders(200, response.length());
-        OutputStream os = he.getResponseBody();
-        System.out.println("Respons: " + response);
-        os.write(response.getBytes(Charset.forName("ISO-8859-1")));
 
+        OutputStream os = he.getResponseBody();
+        os.write( response.getBytes(Charset.forName("ISO-8859-1")));
         os.close();
+
     }
+
+    private String BuildResponseString(String response, String taggedString, String parsedString){
+
+        response = "string: " +  response;
+        taggedString = ", tagg: " +  taggedString ;
+        parsedString = ", parse: " +  parsedString ;
+
+        return "{ " + response + taggedString + parsedString + " }";
+    }
+
 }

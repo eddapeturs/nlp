@@ -20,48 +20,27 @@ import java.net.Socket;
 public class Main {
 
 
-    public Main(){}
-
-    public static void main(String[] args) throws IOException{
-
-        Sentences tagged_sentences = tag("Gott kvöld");
-        String parsed_sentence = parse(tagged_sentences);
-
-    }
-
-    public static String parse(Sentences sentences) throws IOException{
+    public static String parse(String sentences) throws IOException{
         IceParserFacade iceParserFacade = new IceParserFacade();
-        String out = iceParserFacade.parse(sentences.toString(), true,true);
-
-        System.out.println("Parsed sentence: " + out);
+        String out = iceParserFacade.parse(sentences, true,false);
         return out;
     }
 
-    public static Sentences tag(String string) throws IOException{
+    public static String tag(String string) throws IOException{
 
         IceTaggerLexicons iceLexicons = new IceTaggerLexicons("src/icetagger/");
-
         IceMorphyLexicons morphyLexicons = new IceMorphyLexicons("src/icetagger/");
-
         Lexicon lexicon = new Lexicon();
         lexicon.load("src/lexicon.txt");
-
-
         String lex = "src/lexicon.txt";
-
         lexicon.load(lex);
-
 
         IceTaggerFacade iceTagger = new IceTaggerFacade(iceLexicons, morphyLexicons, lexicon);
 
-        Sentences sentences = new Sentences();
+        Sentences sentences = iceTagger.tag(string);
+        String stringSent = sentences.toString();
 
-        sentences = iceTagger.tag(string);
-
-        System.out.println("Tagged sentence: " + sentences.toString());
-
-
-        return sentences;
+        return stringSent;
     }
 
 }

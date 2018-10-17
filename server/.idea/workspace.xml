@@ -53,21 +53,26 @@
     <session id="490064765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="java" value="1" />
           <entry key="keystore" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="JAVA" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -75,12 +80,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="104" />
-          <entry key="java" value="698" />
+          <entry key="java" value="1769" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="698" />
+          <entry key="JAVA" value="1769" />
           <entry key="PLAIN_TEXT" value="104" />
         </counts>
       </usages-collector>
@@ -91,30 +96,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="16" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#2120#2128#0" expanded="true" />
-                <element signature="e#2095#2111#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
+        <entry file="file://$PROJECT_DIR$/src/server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="2738">
+              <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceParserFacade.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1584">
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#13895#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/net/httpserver/HttpExchange.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="-482">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
@@ -136,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceTaggerFacade.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2794">
-              <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+            <state relative-caret-position="552">
+              <caret line="159" column="30" lean-forward="true" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -183,7 +187,15 @@
     <findStrings>
       <find>IOexc</find>
       <find>lineforma</find>
+      <find>parsed se</find>
+      <find>System</find>
+      <find>tag</find>
+      <find>sys</find>
+      <find>buildResponsString</find>
     </findStrings>
+    <replaceStrings>
+      <replace>BuildResponseString</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar</dir>
     </dirStrings>
@@ -197,9 +209,9 @@
         <option value="$PROJECT_DIR$/src/paramAnalyze" />
         <option value="$PROJECT_DIR$/src/paramAnalyze.txt" />
         <option value="$PROJECT_DIR$/src/paramFill.txt" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/server.java" />
-        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -221,6 +233,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,17 +246,71 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IceNLPCore.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IceNLPCore.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="is" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IceNLPCore.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="is" type="462c0819:PsiDirectoryNode" />
+              <item name="iclt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IceNLPCore.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="is" type="462c0819:PsiDirectoryNode" />
+              <item name="iclt" type="462c0819:PsiDirectoryNode" />
+              <item name="icenlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IceNLPCore.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="is" type="462c0819:PsiDirectoryNode" />
+              <item name="iclt" type="462c0819:PsiDirectoryNode" />
+              <item name="icenlp" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/website/carlwr.github.io/server" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -321,18 +388,22 @@
       <updated>1539549176133</updated>
       <workItem from="1539549178729" duration="16131000" />
       <workItem from="1539609829547" duration="28000" />
-      <workItem from="1539622402667" duration="7176000" />
+      <workItem from="1539622402667" duration="8791000" />
+      <workItem from="1539698463972" duration="2147000" />
+      <workItem from="1539700831202" duration="46000" />
+      <workItem from="1539704369116" duration="2218000" />
+      <workItem from="1539770395955" duration="13680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23335000" />
+    <option name="totallyTimeSpent" value="43041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2583784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27783784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -434,13 +505,6 @@
         <state relative-caret-position="-3960" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceParserFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/core/icemorphy/IceMorphyLexicons.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -458,12 +522,9 @@
     <entry file="file://$PROJECT_DIR$/src/icetagger/otb.dict">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceTaggerFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2794">
-          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README" />
+    <entry file="file://$PROJECT_DIR$/mykey.keystore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lexicon.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -485,38 +546,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mykey.keystore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/net/httpserver/HttpExchange.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="-482">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceTaggerFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="159" column="30" lean-forward="true" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/facade/IceParserFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#13895#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="46">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#2120#2128#0" expanded="true" />
-            <element signature="e#2095#2111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="2738">
+          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
         </state>
       </provider>
     </entry>
