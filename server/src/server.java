@@ -127,6 +127,9 @@ class GetHandler implements HttpHandler {
 
 
         String response = BuildResponseString(string, taggedString, parsedString);
+
+        response = response.replaceAll("\n", "");
+        System.out.println(response);
         he.sendResponseHeaders(200, response.length());
 
         OutputStream os = he.getResponseBody();
@@ -137,9 +140,9 @@ class GetHandler implements HttpHandler {
 
     private String BuildResponseString(String response, String taggedString, String parsedString){
 
-        response = "string: " +  response;
-        taggedString = ", tagg: " +  taggedString ;
-        parsedString = ", parse: " +  parsedString ;
+        response = "\"string\":\"" +  response + "\"";
+        taggedString = ", \"tagg\":\"" +  taggedString + "\"";
+        parsedString = ", \"parse\":\"" +  parsedString + "\"";
 
         return "{ " + response + taggedString + parsedString + " }";
     }
