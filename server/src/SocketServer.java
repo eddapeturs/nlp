@@ -1,6 +1,3 @@
-
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
-
 import java.net.*;
 import java.io.*;
 

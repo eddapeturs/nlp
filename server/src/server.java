@@ -2,12 +2,9 @@
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 
 import java.io.*;
 import java.net.InetSocketAddress;
-import java.net.Socket;
-import java.net.URI;
 import java.net.URLDecoder;
 import java.nio.charset.Charset;
 import java.util.*;

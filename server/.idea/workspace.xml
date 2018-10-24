@@ -13,24 +13,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/test.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/test.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/test2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/GetHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/RootHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/baseDict.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/baseEndings.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/idioms.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.apertium.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.endings.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.endingsProper.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.verbAdverb.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.verbObj.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otb.verbPrep.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/otbTags.freq.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/prefixes.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/lexicon.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Malfridur/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="222">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1694">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="-2222">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="-462">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,9 +230,9 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BackendServer.java" />
-        <option value="$PROJECT_DIR$/src/SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/server.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/server.java" />
+        <option value="$PROJECT_DIR$/src/SocketServer.java" />
       </list>
     </option>
   </component>
@@ -292,6 +275,11 @@
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -309,7 +297,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IceNLP/dist/IceNLPCore.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IceNLPCore.jar!/" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -403,18 +391,18 @@
       <workItem from="1539770395955" duration="16728000" />
       <workItem from="1540087734265" duration="94000" />
       <workItem from="1540375501830" duration="10434000" />
-      <workItem from="1540391679006" duration="244000" />
+      <workItem from="1540391679006" duration="2231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56861000" />
+    <option name="totallyTimeSpent" value="58848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29297298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29297298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -422,7 +410,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3317919" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3317919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,16 +511,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server.xml" />
-    <entry file="file://$PROJECT_DIR$/src/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Malfridur.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -563,20 +541,29 @@
     <entry file="file://$PROJECT_DIR$/server.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1694">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="222">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="-462">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2222">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
