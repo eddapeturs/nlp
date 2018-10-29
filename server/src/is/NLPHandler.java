@@ -1,3 +1,4 @@
+package is;
 
 import is.iclt.icenlp.core.icemorphy.IceMorphyLexicons;
 import is.iclt.icenlp.core.icetagger.IceTaggerLexicons;
@@ -6,8 +7,6 @@ import is.iclt.icenlp.core.utils.Lexicon;
 import is.iclt.icenlp.facade.IceParserFacade;
 import is.iclt.icenlp.facade.IceTaggerFacade;
 import java.io.*;
-import java.net.ServerSocket;
-import java.net.Socket;
 
 /*
 * This is a project in Natural Language Processing at the University of Reykjavik
@@ -17,7 +16,7 @@ import java.net.Socket;
 * */
 
 
-public class Main {
+public class NLPHandler {
 
 
     public static String parse(String sentences) throws IOException{
@@ -28,8 +27,9 @@ public class Main {
 
     public static String tag(String string) throws IOException{
 
-        IceTaggerLexicons iceLexicons = new IceTaggerLexicons("src/icetagger/");
-        IceMorphyLexicons morphyLexicons = new IceMorphyLexicons("src/icetagger/");
+        IceTaggerLexicons iceLexicons = new IceTaggerLexicons("src/is.icetagger/");
+        System.out.println("Got the Lexicon1");
+        IceMorphyLexicons morphyLexicons = new IceMorphyLexicons("src/is.icetagger/");
         Lexicon lexicon = new Lexicon();
         lexicon.load("src/lexicon.txt");
         String lex = "src/lexicon.txt";
@@ -39,7 +39,7 @@ public class Main {
 
         Sentences sentences = iceTagger.tag(string);
         String stringSent = sentences.toString();
-
+        System.out.println("RETURNING");
         return stringSent;
     }
 
