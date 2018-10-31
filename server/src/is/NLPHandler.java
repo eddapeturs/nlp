@@ -27,19 +27,19 @@ public class NLPHandler {
 
     public static String tag(String string) throws IOException{
 
-        IceTaggerLexicons iceLexicons = new IceTaggerLexicons("src/is.icetagger/");
+        System.out.println("Before lexicons");
+        IceTaggerLexicons iceLexicons = new IceTaggerLexicons("src/is/icetagger/");
         System.out.println("Got the Lexicon1");
-        IceMorphyLexicons morphyLexicons = new IceMorphyLexicons("src/is.icetagger/");
+        IceMorphyLexicons morphyLexicons = new IceMorphyLexicons("src/is/icetagger/");
         Lexicon lexicon = new Lexicon();
-        lexicon.load("src/lexicon.txt");
-        String lex = "src/lexicon.txt";
+        lexicon.load("src/is/lexicon.txt");
+        String lex = "src/is/lexicon.txt";
         lexicon.load(lex);
 
         IceTaggerFacade iceTagger = new IceTaggerFacade(iceLexicons, morphyLexicons, lexicon);
 
         Sentences sentences = iceTagger.tag(string);
         String stringSent = sentences.toString();
-        System.out.println("RETURNING");
         return stringSent;
     }
 

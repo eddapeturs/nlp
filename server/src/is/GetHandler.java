@@ -36,6 +36,7 @@ class GetHandler implements HttpHandler {
         LocalServer.parseQuery(textBuilder.toString(), parameters);
 
         // send response
+        System.out.println("String tagging");
         String string = parameters.get("string").toString();
         String taggedString = NLPHandler.tag(string);
         String parsedString = NLPHandler.parse(taggedString);
