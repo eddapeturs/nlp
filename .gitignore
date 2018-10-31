@@ -1,8 +1,6 @@
 .idea
 .idea/*
 .metadata
-out/
-server/out/*
 server/server.sh
 server/src/META-INF
 nlp.iml
