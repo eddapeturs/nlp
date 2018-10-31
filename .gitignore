@@ -1,0 +1,7 @@
+.idea
+.idea/*
+.metadata
+server/out/*
+server/src
+server/server.sh
+server/src/META-INF

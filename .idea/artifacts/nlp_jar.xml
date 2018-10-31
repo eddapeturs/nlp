@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="nlp:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/nlp_jar</output-path>
+    <root id="archive" name="nlp.jar">
+      <element id="module-output" name="nlp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/server/IceNLPCore.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
