@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Malfridur:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc4b0856-5377-41fd-a15f-8356c4725643" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/is/GetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/is/LocalServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Malfridur.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Malfridur.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mykey.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/icemorphy.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/outputTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/paramAnalyze.txt" beforeDir="false" />
@@ -31,6 +44,25 @@
       <change beforePath="$PROJECT_DIR$/out/production/Malfridur/icetagger/prefixes.dict" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Malfridur/lexicon.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Malfridur/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/NLPHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RootHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/baseDict.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/baseDict.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/baseEndings.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/baseEndings.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/idioms.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/idioms.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.apertium.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.apertium.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.endings.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.endings.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.endingsProper.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.endingsProper.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.verbAdverb.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.verbAdverb.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.verbObj.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.verbObj.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otb.verbPrep.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otb.verbPrep.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/otbTags.freq.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/otbTags.freq.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icetagger/prefixes.dict" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/icetagger/prefixes.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lexicon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/is/lexicon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,61 +115,100 @@
     <session id="490064765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="MF" value="3" />
           <entry key="README" value="1" />
-          <entry key="class" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="4" />
-          <entry key="keystore" value="1" />
-          <entry key="md" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="8" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="11" />
+          <entry key="keystore" value="2" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="sh" value="1" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="4" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="8" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="Manifest" value="3" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="MF" value="49" />
           <entry key="README" value="104" />
-          <entry key="java" value="2055" />
+          <entry key="dummy" value="24" />
+          <entry key="java" value="2181" />
+          <entry key="md" value="499" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2055" />
-          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="JAVA" value="2181" />
+          <entry key="Manifest" value="49" />
+          <entry key="Markdown" value="499" />
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/is/NLPHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/charsets.jar!/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/core/src/is/LocalServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/is/GetHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,58 +217,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server.java">
+        <entry file="file://$PROJECT_DIR$/core/src/is/RootHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1694">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="235">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Malfridur.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/src.zip!/java/net/Socket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-              <folding>
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mykey.keystore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -205,7 +241,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.properties">
+        <entry file="file://$PROJECT_DIR$/runserver.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/charsets.jar!/sun/awt/HKSCS.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/IceNLPCore.jar!/is/iclt/icenlp/core/icetagger/IceTaggerLexicons.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.properties">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -233,6 +296,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -245,11 +309,22 @@
         <option value="$PROJECT_DIR$/src/paramAnalyze.txt" />
         <option value="$PROJECT_DIR$/src/paramFill.txt" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BackendServer.java" />
         <option value="$PROJECT_DIR$/src/SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/server.java" />
+        <option value="$PROJECT_DIR$/src/RootHandler.java" />
+        <option value="$PROJECT_DIR$/src/GetHandler.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/server.java" />
+        <option value="$PROJECT_DIR$/src/is/server.java" />
+        <option value="$PROJECT_DIR$/src/is/NLPHandler.java" />
+        <option value="$PROJECT_DIR$/src/is/localServer.java" />
+        <option value="$PROJECT_DIR$/src/is/LocalServer.java" />
+        <option value="$PROJECT_DIR$/src/is/GetHandler.java" />
+        <option value="$PROJECT_DIR$/src/is/RootHandler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -270,6 +345,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,13 +356,20 @@
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="is" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
@@ -296,25 +379,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IceNLP/dist/IceNLPCore.jar!/" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IceNLPCore.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/src/is" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -331,7 +418,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.server">
+  <component name="RunManager">
+    <configuration name="LocalServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="is.LocalServer" />
+      <module name="Malfridur" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Malfridur" />
@@ -362,22 +459,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server" />
+    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Malfridur_jar/Malfridur.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <module name="Malfridur" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JAR Application.Unnamed" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RunIceMorphy" />
-      <item itemvalue="Application.server" />
+      <item itemvalue="Application.LocalServer" />
       <item itemvalue="Application.SocketServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.server" />
+        <item itemvalue="Application.LocalServer" />
         <item itemvalue="Application.SocketServer" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunIceMorphy" />
@@ -403,26 +502,29 @@
       <workItem from="1539770395955" duration="16728000" />
       <workItem from="1540087734265" duration="94000" />
       <workItem from="1540375501830" duration="10434000" />
-      <workItem from="1540391679006" duration="244000" />
+      <workItem from="1540391679006" duration="2231000" />
+      <workItem from="1540414500753" duration="3642000" />
+      <workItem from="1540466086380" duration="9319000" />
+      <workItem from="1540485086955" duration="3495000" />
+      <workItem from="1540809723993" duration="2109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56861000" />
+    <option name="totallyTimeSpent" value="86476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29297298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3145946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3317919" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3317919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,9 +533,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24972972" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
@@ -483,8 +585,18 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/is/NLPHandler.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/paramAnalyze" />
@@ -499,7 +611,7 @@
     <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/core/icestagger/Lexicon.class" />
     <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/core/icemorphy/IceMorphyLexicons.class" />
     <entry file="jar://$USER_HOME$/Hämtningar/IceNLP/dist/IceNLPCore.jar!/is/iclt/icenlp/core/icetagger/IceTaggerLexicons.class" />
-    <entry file="file://$PROJECT_DIR$/src/icetagger/otb.dict">
+    <entry file="file://$PROJECT_DIR$/core/src/is/icetagger/otb.dict">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README" />
@@ -515,34 +627,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lexicon.txt">
+    <entry file="file://$PROJECT_DIR$/core/src/is/lexicon.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackendServer.java" />
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/server.xml" />
+    <entry file="file://$PROJECT_DIR$/server.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.xml" />
-    <entry file="file://$PROJECT_DIR$/src/SocketServer.java">
+    <entry file="file://$PROJECT_DIR$/src/SocketServer.java" />
+    <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="4884">
+          <caret line="253" column="32" selection-start-line="253" selection-start-column="32" selection-end-line="253" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Malfridur.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/src.zip!/java/net/Socket.java">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Malfridur_jar.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        <state relative-caret-position="22">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IceNLPCore.jar!/is/iclt/icenlp/facade/IceTaggerFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IceNLPCore.jar!/is/iclt/icenlp/core/icestagger/IceTagger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/charsets.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Hämtningar/jdk1.8.0_181/jre/lib/charsets.jar!/sun/awt/HKSCS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IceNLPCore.jar!/is/iclt/icenlp/core/icetagger/IceTaggerLexicons.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is/RootHandler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is/server.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/is/GetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/is/NLPHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,33 +735,34 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.java">
+    <entry file="file://$PROJECT_DIR$/runserver.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1694">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/is/RootHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/core/src/is/LocalServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -588,11 +771,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Malfridur:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -648,6 +840,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>IceNLPCore</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
