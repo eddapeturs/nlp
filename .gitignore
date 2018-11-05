@@ -1,0 +1,7 @@
+.idea
+.idea/*
+.metadata
+server/server.sh
+server/src/META-INF
+nlp.iml
+runserver.sh
